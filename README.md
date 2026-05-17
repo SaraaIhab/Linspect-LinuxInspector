@@ -87,7 +87,7 @@ A full JSON report is saved to `/tmp/privesc_report_<timestamp>.json` for offlin
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/privesc_enum.git
+git clone https://github.com/SaraaIhab/privesc_enum.git
 cd privesc_enum
 
 # Run the tool (Python 3, no dependencies needed)
