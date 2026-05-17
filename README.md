@@ -1,4 +1,4 @@
-# linspec.py — Linux Privilege Escalation Enumeration Tool
+# linspect.py — Linux Privilege Escalation Enumeration Tool
 
 > **For educational use in authorised, controlled lab environments only.**  
 > Do not run this tool on systems you do not own or have explicit permission to test.
@@ -7,7 +7,7 @@
 
 ## Overview
 
-`linspec.py` is a manual Linux privilege escalation enumeration tool and a benchmark companion to [LinPEAS](https://github.com/carlospolop/PEASS-ng). It systematically audits a Linux system for common misconfigurations and vulnerabilities that could allow a low-privilege user to escalate to root.
+`linspect.py` is a manual Linux privilege escalation enumeration tool and a benchmark companion to [LinPEAS](https://github.com/carlospolop/PEASS-ng). It systematically audits a Linux system for common misconfigurations and vulnerabilities that could allow a low-privilege user to escalate to root.
 
 The tool is written entirely in Python 3 using the standard library — no external dependencies required.
 
