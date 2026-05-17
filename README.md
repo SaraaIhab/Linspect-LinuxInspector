@@ -21,7 +21,7 @@ There are four main helper functions. First, `run()`, which acts as the gateway 
 
 ---
 
-## 🔎 The 10 Check Modules
+##  The 10 Check Modules
 
 ### 1. `check_system_info()` — System Information
 Collects context about the machine by running `whoami` and `os.getuid()` to identify the current user, and `id` to list all group memberships. If the UID is zero, the user is already root, in which case the tool notifies that privilege escalation is unnecessary and that persistence vectors are more relevant.
