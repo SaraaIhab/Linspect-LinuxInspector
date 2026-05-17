@@ -87,8 +87,8 @@ A full JSON report is saved to `/tmp/privesc_report_<timestamp>.json` for offlin
 
 ```bash
 # Clone the repo
-git clone https://github.com/SaraaIhab/linspec.git
-cd linspec
+git clone https://github.com/SaraaIhab/Linspect-LinuxInspector.git
+cd Linspect-LinuxInspector/
 
 # Run the tool (Python 3, no dependencies needed)
 python3 privesc_enum.py
