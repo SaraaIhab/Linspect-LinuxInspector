@@ -1,4 +1,4 @@
-# privesc_enum.py — Linux Privilege Escalation Enumeration Tool
+# linspec.py — Linux Privilege Escalation Enumeration Tool
 
 > **For educational use in authorised, controlled lab environments only.**  
 > Do not run this tool on systems you do not own or have explicit permission to test.
@@ -7,7 +7,7 @@
 
 ## Overview
 
-`privesc_enum.py` is a manual Linux privilege escalation enumeration tool and a benchmark companion to [LinPEAS](https://github.com/carlospolop/PEASS-ng). It systematically audits a Linux system for common misconfigurations and vulnerabilities that could allow a low-privilege user to escalate to root.
+`linspec.py` is a manual Linux privilege escalation enumeration tool and a benchmark companion to [LinPEAS](https://github.com/carlospolop/PEASS-ng). It systematically audits a Linux system for common misconfigurations and vulnerabilities that could allow a low-privilege user to escalate to root.
 
 The tool is written entirely in Python 3 using the standard library — no external dependencies required.
 
@@ -87,8 +87,8 @@ A full JSON report is saved to `/tmp/privesc_report_<timestamp>.json` for offlin
 
 ```bash
 # Clone the repo
-git clone https://github.com/SaraaIhab/privesc_enum.git
-cd privesc_enum
+git clone https://github.com/SaraaIhab/linspec.git
+cd linspec
 
 # Run the tool (Python 3, no dependencies needed)
 python3 privesc_enum.py
